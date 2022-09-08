@@ -7,12 +7,16 @@ package com.xt.demo;
 public class Demo1 {
     public static void main(String[] args) {
         test();
-        System.out.println("hello world");
+        System.out.println("world");
+        System.out.println("world");
     }
 
     public static void test() {
         for (int i = 0; i < 5; i++) {
-            System.out.println("那就这样吧");
+            System.out.println("我来改改");
+        }
+        for (int i = 0; i < 6; i++) {
+            System.out.println("make some noise ");
         }
     }
 
